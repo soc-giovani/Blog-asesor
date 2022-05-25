@@ -1,0 +1,163 @@
+h1{
+    text-align: center;
+    color: #23558F;
+    font-size: 72px !important;
+    font-weight: 500 !important;
+}
+h2{
+    color: #23558F;
+    text-align: center;
+    margin-bottom: 32px;
+}
+p{
+    text-align: center;
+    font-size: 32px !important;
+}
+
+.container{
+    margin-top: 32px;
+    width: 1200px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.btn-primary{
+    background-color: #64A659 !important;
+    border-color: #64A659 !important;
+    width: 300px !important;
+    
+}
+
+
+.imagen-izq{
+    width: 85%;
+    margin-left: 13%;
+}
+.registro{
+    color: white;
+    text-decoration: none;
+	margin-bottom: 30px;
+    
+}
+
+.registro-exitoso{
+    background-color: #F0F3F7 !important;
+	border-radius: 22px;
+	text-align: center;
+	height: fit-content;
+}
+.img-check{
+	width: 	80px;
+	margin-top: 45px;
+	margin-bottom: 22px;
+}
+
+.img-card{
+    margin-left: auto;
+	margin-right: auto;
+    width: 55%;
+}
+.card{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-ver-contenido{
+    margin-bottom: 32px;
+	margin-left: 25%;
+    width: auto !important;
+    border-color: #64A659 !important;
+    border-radius: 8px;
+    border-width: 4px;
+    background-color: white !important;
+}
+
+.link-contenido{
+    color: #64A659 !important;
+    font-size: 32px;
+	text-decoration: none !important;
+}
+
+
+/*------Formulario------*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+
+.form-control {
+	margin-bottom: 10px;
+	position: relative;
+    border: none !important;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+    margin-bottom: 6px !important;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	bottom: -11;
+	left: 11;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #64A659;
+	border: 2px solid #64A659;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
