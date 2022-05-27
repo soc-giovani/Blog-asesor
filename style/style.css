@@ -1,17 +1,19 @@
 h1{
     text-align: center;
-    color: #23558F;
+    color: #015694;
     font-size: 72px !important;
     font-weight: 500 !important;
 }
 h2{
-    color: #23558F;
+    color: #015694;
     text-align: center;
     margin-bottom: 32px;
 }
 p{
-    text-align: center;
+    text-align: start;
     font-size: 32px !important;
+	color: #40516f;
+	font-weight: 200;	
 }
 
 .container{
@@ -22,22 +24,19 @@ p{
 }
 
 .btn-primary{
-    background-color: #64A659 !important;
-    border-color: #64A659 !important;
+    background-color: #4AA84F !important;
+    border-color: #4AA84F !important;
     width: 300px !important;
-    
 }
 
 
 .imagen-izq{
-    width: 85%;
-    margin-left: 13%;
+    width: 100%;
 }
 .registro{
     color: white;
     text-decoration: none;
-	margin-bottom: 30px;
-    
+	margin-bottom: 16px;
 }
 
 .registro-exitoso{
@@ -55,27 +54,39 @@ p{
 .img-card{
     margin-left: auto;
 	margin-right: auto;
-    width: 55%;
+    width: 85%;
+	margin-top: 18px;
 }
 .card{
-	width: 1000px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.card-body{
+	margin: auto !important;
+}
+.card-text{
+	font-size: 22px !important;
+	width: 500px;
+	text-align: center;
+	margin: auto;
 }
 
 .btn-ver-contenido{
     margin-bottom: 32px;
-	margin-left: 25%;
-    width: auto !important;
+	margin-right: auto;
+	margin-left: auto;
     border-color: #64A659 !important;
     border-radius: 8px;
+	width: 500px;
+	font-size: 18px;
     border-width: 4px;
     background-color: white !important;
 }
 
 .link-contenido{
     color: #64A659 !important;
-    font-size: 32px;
+    font-size: 22px;
 	text-decoration: none !important;
 }
 
@@ -87,8 +98,9 @@ p{
 
 
 .form-control {
-	margin-bottom: 10px;
+	margin-bottom: 3px;
 	position: relative;
+	padding: 0 !important;
     border: none !important;
 }
 
@@ -158,6 +170,21 @@ p{
 	font-family: inherit;
 	font-size: 16px;
 	padding: 10px;
-	margin-top: 20px;
-	width: 100%;
+	margin-top: 8px;
+	width: 65%;
+}
+
+.botones{
+	align-items: center;
+	margin-left: 85px;
+}
+
+.recuperar-acceso{
+	text-align: center;
+	margin: auto;
+	padding-left: 200px;
+}
+.texto-correo{
+	font-size:18px !important;
+	text-align: center;
 }
