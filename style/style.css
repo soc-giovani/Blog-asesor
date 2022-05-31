@@ -139,7 +139,9 @@ p{
 	top: 40px;
 	right: 10px;
 }
-
+.form-apellido{
+	margin-bottom: 28px;
+}
 .form-control.success i.fa-check-circle {
 	color: #2ecc71;
 	visibility: visible;
@@ -182,7 +184,7 @@ p{
 .recuperar-acceso{
 	text-align: center;
 	margin: auto;
-	padding-left: 200px;
+	padding-left: 230px;
 }
 .texto-correo{
 	font-size:18px !important;
